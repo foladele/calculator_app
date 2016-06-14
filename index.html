@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<link rel="stylesheet" href="stylesheets/style.css" type="text/css">
+		<script type="text/javascript" src="javascripts/app.js"></script>
+<!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+          
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+				<div class="col s6">
+					<form>
+						Calculate <input type="textfield" id="calc_value" value=""  class="col s12"> 
+						<hr/>
+						<input type="button" value="1" onClick="addi('1');" class="btn-floating btn-large waves-effect waves-light red">
+						<input type="button" value="2" onClick="addi('2');" class="btn-floating btn-large waves-effect waves-light red">
+						<input type="button" value="3" onClick="addi('3');" class="btn-floating btn-large waves-effect waves-light red">
+						<input type="button" value="4" onClick="addi('4');" class="btn-floating btn-large waves-effect waves-light red">
+						<input type="button" value="5" onClick="addi('5');" class="btn-floating btn-large waves-effect waves-light red">
+						<input type="button" value="6" onClick="addi('6');" class="btn-floating btn-large waves-effect waves-light red">
+						<input type="button" value="7" onClick="addi('7');" class="btn-floating btn-large waves-effect waves-light red">
+						<input type="button" value="8" onClick="addi('8');" class="btn-floating btn-large waves-effect waves-light red">
+						<input type="button" value="9" onClick="addi('9');" class="btn-floating btn-large waves-effect waves-light red">
+						<input type="button" value="0" onClick="addi('0');" class="btn-floating btn-large waves-effect waves-light red">
+						<input type="button" value="*" onClick="addi('*');" class="btn-floating btn-large waves-effect waves-light black">
+						<input type="button" value="+" onClick="addi('+');" class="btn-floating btn-large waves-effect waves-light black">
+						<input type="button" value="/" onClick="addi('/');" class="btn-floating btn-large waves-effect waves-light black">
+						<input type="button" value="-" onClick="addi('-');" class="btn-floating btn-large waves-effect waves-light black"> 
+						<input type="button" value="=" onClick="calculate();" class="btn-floating btn-large waves-effect waves-light black"> 
+						<input type="reset" value="C" class="btn-floating btn-large waves-effect waves-light black"> 
+					</form>
+				</div>
+			</div>
+	</div>
+
+</body>
+</html>
